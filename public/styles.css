@@ -1,5 +1,47 @@
+body {
+    color: black;
+    background-color: rgb(31,31,31) !important;
+}
 #button-cnt-container{
+    padding-top: 12.5%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items:center;
+    flex-direction: column;
+}
+#big-button{
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+    border-color: black;
+    background-color: rgb(190, 78, 190);
+    font-size: x-large;
+    margin: 0;
+}
+#outer-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: darkgray;
+}
+
+#counter {
+    background-color:rgb(190, 78, 190);
+    width: 7rem;
+    height: auto;
+    text-align: center;
+    font-size: large;
+    border-radius: 5%;
+}
+
+#form-container {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12.5%;
 }
